@@ -1,0 +1,11 @@
+version: "3.9" 
+services:
+
+  python:
+    image: python-image
+    container_name: python-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+ 
+
